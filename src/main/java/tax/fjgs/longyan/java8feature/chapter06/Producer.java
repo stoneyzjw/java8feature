@@ -1,6 +1,9 @@
 package tax.fjgs.longyan.java8feature.chapter06;
 
 import java.util.Random;
+/*
+ * 测试
+ */
 
 public class Producer extends Thread
 {
