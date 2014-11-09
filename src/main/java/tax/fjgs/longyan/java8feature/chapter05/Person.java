@@ -16,6 +16,13 @@ public class Person
 
 	private Gender gender;
 
+	/**
+	 * constructor
+	 * @param String firstName
+	 * @param String lastName
+	 * @param LocalDate dob
+	 * @param Gender gender
+	 */
 	public Person(String firstName, String lastName, LocalDate dob, Gender gender)
 	{
 		this.firstName	= firstName;
