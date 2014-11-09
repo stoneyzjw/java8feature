@@ -17,5 +17,8 @@ public class AccessingLocalVariables
 		// x = 100; x must effectively final
 		LocalInner li = new LocalInner();
 		li.print();
+		/*
+		 * Test for git
+		 */
 	}
 }
