@@ -21,7 +21,7 @@ public class ChecksumTest
 		long crc32Checksum = crc.getValue();
 		System.out.println("CRC32: " + crc32Checksum);
 		/* 
-		 * end
+		 * test git stash branch 
 		 */
 	}
 }
