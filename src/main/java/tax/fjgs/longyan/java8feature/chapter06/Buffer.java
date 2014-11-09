@@ -30,6 +30,11 @@ public class Buffer
 		System.out.println("Produced: " + newData);
 	}
 
+	/**
+	 * @param
+	 * @return int
+	 */
+
 	public synchronized int consume()
 	{
 		while (this.empty)
