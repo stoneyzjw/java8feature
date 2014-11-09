@@ -14,6 +14,9 @@ public class Producer extends Thread
 		this.buffer = buffer;
 	}
 
+	/*
+	 * 测试git stash命令。
+	 */
 	public void run()
 	{
 		Random rand = new Random();

@@ -11,6 +11,10 @@ public class CallableTask implements Callable<Integer>
 
 	private Random random = new Random();
 
+	/*
+	 * some comment
+	 * 用于测试
+	 */
 	public CallableTask(int taskId, int loopCounter)
 	{
 		this.taskId			= taskId;
