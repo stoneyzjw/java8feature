@@ -20,5 +20,8 @@ public class ChecksumTest
 		crc.update(data);
 		long crc32Checksum = crc.getValue();
 		System.out.println("CRC32: " + crc32Checksum);
+		/* 
+		 * end
+		 */
 	}
 }
