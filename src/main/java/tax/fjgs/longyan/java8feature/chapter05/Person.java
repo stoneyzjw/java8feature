@@ -8,6 +8,7 @@ import static tax.fjgs.longyan.java8feature.chapter05.Gender.FEMALE;
 
 public class Person
 {
+	// firstName field
 	private String firstName;
 
 	private String lastName;
@@ -37,6 +38,10 @@ public class Person
 		return firstName + " " + lastName + ", " + gender + ", " + dob;
 	}
 
+	/**
+	 * @param
+	 * @return List<Person>
+	 */
 	public static List<Person> getPersons()
 	{
 		ArrayList<Person> list = new ArrayList<>();
@@ -56,6 +61,9 @@ public class Person
 		this.firstName = firstName;
 	}
 
+	/*
+	 * Property lastName
+	 */
 	public String getLastName()
 	{
 		return lastName;
