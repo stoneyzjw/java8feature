@@ -1,5 +1,8 @@
 package tax.fjgs.longyan.java8feature.chapter06;
 
+/*
+ * 测试 git stash命令。
+ */
 public class Consumer extends Thread
 {
 	private Buffer buffer;

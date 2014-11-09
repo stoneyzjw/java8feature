@@ -6,6 +6,7 @@ import java.util.concurrent.Phaser;
 
 public class AdderTask extends Thread
 {
+	/* field phaser */
 	private Phaser phaser;
 
 	private String taskName;
